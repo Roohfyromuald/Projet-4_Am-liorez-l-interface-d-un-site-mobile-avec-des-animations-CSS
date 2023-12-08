@@ -1,14 +1,16 @@
 /*******Variables********/
 /********mixins*******/
 /****Fonts*****/
+
 @font-face {
-    font-family: roboto;
-    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
-  }
-  @font-face {
-    font-family: shrikhand;
-    src: url("../assets/fonts/shrinkhand/Shrikhand-Regular.ttf");
-  }
+  font-family: 'Roboto';
+  src: url('path-to-the-roboto-font-file.woff'); /* Ajoutez le chemin vers le fichier de police Roboto */
+}
+
+/* Utiliser 'Roboto' dans votre CSS */
+body {
+  font-family: 'Roboto', sans-serif;
+}
   /*********resets******/
   body {
     display: flex;
