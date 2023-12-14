@@ -97,28 +97,6 @@ body {
     z-index: -1;
   }
 }
-/*****animation card-box****/
-@keyframes anim-card-box {
-  0% {
-    transform: translateX(-500px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-.entrees {
-  animation: anim-card-box 0.4s;
-}
-
-.plats {
-  animation: anim-card-box 0.8s;
-}
-
-.desserts {
-  animation: anim-card-box 1.2s;
-}
 
 /*********footer**************/
 footer {
@@ -332,7 +310,7 @@ header .header__gps-container .label-content {
 /* descriptif menu titre et ligne*/
 .card-box {
   background-color: #f6f6f6;
-  /**********parie menu &animationPrix************/
+  /**********partie menu &animationPrix************/
 }
 @media screen and (min-width: 768px) {
   .card-box {
